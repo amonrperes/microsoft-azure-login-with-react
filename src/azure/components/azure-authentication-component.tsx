@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import AzureAuthenticationContext from "./azure-authentication-context";
+import AzureAuthenticationContext from "../azure-authentication-context";
 import { AccountInfo } from "@azure/msal-browser";
+
+import "./styles.css"
+import MSIcon from '../../assets/msicon.png';
 
 const ua = window.navigator.userAgent;
 const msie = ua.indexOf("MSIE ");
@@ -39,8 +42,9 @@ const AzureAuthenticationButton = ({ onAuthenticated }: any): JSX.Element => {
 
   const showLogInButton = (): any => {
     return (
-      <button id="authenticationButton" onClick={() => logIn("loginPopup")}>
-        Log in
+      <button className="ms-button" id="authenticationButton" onClick={() => logIn("loginPopup")}>
+        Microsoft Account
+        <img className="ms-icon" src={MSIcon} alt="msicon" />
       </button>
     );
   };
