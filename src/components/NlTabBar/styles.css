@@ -1,0 +1,49 @@
+.nl-tab-container{
+  display: flex;
+  background-color: #FC7422;
+  flex-direction: row;
+  padding: 6px 0px 10px 0px;
+  box-shadow: 0px 2px #9c9c9c5d;
+  justify-content: space-between;
+}
+.user-tools-container{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-right: 25px;
+}
+.nl-tab-bar-logo{
+  width: 67px;
+  height: 36px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.user-name{
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-right: 40px;
+}
+.tab-bar-title{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.home-button-container h1 {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+.nl-tab-bar-title-h1{
+  font-size: 16px;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+.profile-modal{
+  background: url("../../assets/husky 1.png");
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
